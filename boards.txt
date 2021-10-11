@@ -21,7 +21,7 @@ Uno_328PB.build.variant=atmega328pb
 
 ##############################################################
 
-Uno_328PB.menu.version.16mhz=5V / 16MHz
+Uno_328PB.menu.version.16mhz=5,0V / 16MHz
 Uno_328PB.menu.version.16mhz.upload.speed=115200
 Uno_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Uno_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
@@ -50,7 +50,7 @@ Nano_328PB.build.variant=atmega328pb
 
 ##############################################################
 
-Nano_328PB.menu.version.16mhz=5V / 16MHz
+Nano_328PB.menu.version.16mhz=5,0V / 16MHz
 Nano_328PB.menu.version.16mhz.upload.speed=115200
 Nano_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Nano_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
@@ -79,7 +79,7 @@ Mini_328PB.build.variant=atmega328pb
 
 ##############################################################
 
-Mini_328PB.menu.version.16mhz=5V / 16MHz
+Mini_328PB.menu.version.16mhz=5,0V / 16MHz
 Mini_328PB.menu.version.16mhz.upload.speed=115200
 Mini_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Mini_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
