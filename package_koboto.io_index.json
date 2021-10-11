@@ -19,9 +19,11 @@
           "archiveFileName": "Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
           "size": "69639",
           "boards": [
-            {"name": "UNO-328PB"},
-            {"name": "Ba-Nano 328PB"},
-            {"name": "Pro Mini 328PB"}
+            {"name": "A-Star 32U4"},
+            {"name": "A-Star 328PB"},
+            {"name": "Zumo 32U4"},
+            {"name": "Balboa 32U4"},
+            {"name": "Romi 32U4 Control Board"}
           ],
           "toolsDependencies": []
         }
