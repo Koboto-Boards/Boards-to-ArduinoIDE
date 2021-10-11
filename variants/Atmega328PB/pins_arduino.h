@@ -1,5 +1,5 @@
-/* Modified by Pololu to support the ATmega328PB on our
- * A-Star 328PB boards. */
+/* Modified to support the ATmega328PB on our
+ * Koboto.io boards. */
 
 /*
   pins_arduino.h - Pin definition functions for Arduino
