@@ -20,7 +20,7 @@
           "size": "69639",
           "boards": [
             {"name": "Uno 328PB"},
-            {"name": "BA.Nano 328PB"},
+            {"name": "Nano 328PB"},
             {"name": "Pro Mini 328PB"}
           ],
           "toolsDependencies": []
