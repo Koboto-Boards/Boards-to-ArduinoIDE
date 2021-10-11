@@ -15,10 +15,10 @@
           "help": {
             "online": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE"
           },
-          "url": "https://github.com/pololu/a-star/archive/4.0.2.zip",
-          "archiveFileName": "pololu-a-star-4.0.2.zip",
-          "checksum": "SHA-256:d9894ce01591893b9b2611470b66ae39c64832ba031f706ebdca0789be7f7cd4",
-          "size": "131344",
+          "url": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE/archive/Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
+          "archiveFileName": "Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
+          "checksum": "SHA-256:1ed9febc8a276523d2acf521292b84f4eb44020bfc19bba22d4fcdedfde1cdca",
+          "size": "69639",
           "boards": [
             {"name": "A-Star 32U4"},
             {"name": "A-Star 328PB"},
