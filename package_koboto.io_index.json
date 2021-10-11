@@ -21,8 +21,6 @@
           "boards": [
             {"name": "A-Star 32U4"},
             {"name": "A-Star 328PB"},
-            {"name": "Zumo 32U4"},
-            {"name": "Balboa 32U4"},
             {"name": "Romi 32U4 Control Board"}
           ],
           "toolsDependencies": []
