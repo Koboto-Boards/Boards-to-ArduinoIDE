@@ -1,4 +1,4 @@
-// This was modified by Pololu to use the correct signature bytes for the
+// This was modified to use the correct signature bytes for the
 // ATmega328PB and to enable the pull-up resistor on RX (PD0).
 
 /**********************************************************/
