@@ -17,7 +17,7 @@ menu.version=Version
 328PB.build.board=AVR_A_STAR_328PB
 328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
 328PB.build.core=arduino:arduino
-328PB.build.variant=328pb
+328PB.build.variant=atmega328pb
 
 ##############################################################
 
