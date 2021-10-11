@@ -21,7 +21,7 @@
           "boards": [
             {"name": "UNO-328PB"},
             {"name": "Ba-Nano 328PB"},
-            {"name": "Pro Mini 328PB"},
+            {"name": "Pro Mini 328PB"}
           ],
           "toolsDependencies": []
         }
