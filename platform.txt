@@ -1,4 +1,4 @@
-name=koboto.io Boards
+name=Koboto.io Boards
 version=1.0
 
 tools.avrdudecustom.path={runtime.tools.avrdude.path}
