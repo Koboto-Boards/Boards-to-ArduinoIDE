@@ -1,31 +1,96 @@
 menu.version=Version
 
-328PB.name=UNO-328PB
-328PB.upload.tool=avrdudecustom
-328PB.upload.protocol=arduino
-328PB.upload.mcu=atmega328pb
-328PB.upload.maximum_size=32256
-328PB.upload.maximum_data_size=2048
+Uno_328PB.name=Uno 328PB
+Uno_328PB.upload.tool=avrdudecustom
+Uno_328PB.upload.protocol=arduino
+Uno_328PB.upload.mcu=atmega328pb
+Uno_328PB.upload.maximum_size=32256
+Uno_328PB.upload.maximum_data_size=2048
 
-328PB.bootloader.tool=avrdudecustom
-328PB.bootloader.low_fuses=0xFF
-328PB.bootloader.high_fuses=0xDE
-328PB.bootloader.unlock_bits=0xFF
-328PB.bootloader.lock_bits=0xCF
+Uno_328PB.bootloader.tool=avrdudecustom
+Uno_328PB.bootloader.low_fuses=0xFF
+Uno_328PB.bootloader.high_fuses=0xDE
+Uno_328PB.bootloader.unlock_bits=0xFF
+Uno_328PB.bootloader.lock_bits=0xCF
 
-328PB.build.mcu=atmega328p
-328PB.build.board=AVR_A_STAR_328PB
-328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
-328PB.build.core=arduino:arduino
-328PB.build.variant=atmega328pb
-
-##############################################################
-
-328PB.menu.version.16mhz=5V, 16MHz
-328PB.menu.version.16mhz.upload.speed=115200
-328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
-328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
-328PB.menu.version.16mhz.build.f_cpu=16000000L
+Uno_328PB.build.mcu=atmega328p
+Uno_328PB.build.board=AVR_Uno_328PB
+Uno_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Uno_328PB.build.core=arduino:arduino
+Uno_328PB.build.variant=atmega328pb
 
 ##############################################################
 
+Uno_328PB.menu.version.16mhz=5V / 16MHz
+Uno_328PB.menu.version.16mhz.upload.speed=115200
+Uno_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
+Uno_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
+Uno_328PB.menu.version.16mhz.build.f_cpu=16000000L
+
+##############################################################
+
+Nano_328PB.name=Nano 328PB
+Nano_328PB.upload.tool=avrdudecustom
+Nano_328PB.upload.protocol=arduino
+Nano_328PB.upload.mcu=atmega328pb
+Nano_328PB.upload.maximum_size=32256
+Nano_328PB.upload.maximum_data_size=2048
+
+Nano_328PB.bootloader.tool=avrdudecustom
+Nano_328PB.bootloader.low_fuses=0xFF
+Nano_328PB.bootloader.high_fuses=0xDE
+Nano_328PB.bootloader.unlock_bits=0xFF
+Nano_328PB.bootloader.lock_bits=0xCF
+
+Nano_328PB.build.mcu=atmega328p
+Nano_328PB.build.board=AVR_Nano_328PB
+Nano_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Nano_328PB.build.core=arduino:arduino
+Nano_328PB.build.variant=atmega328pb
+
+##############################################################
+
+Nano_328PB.menu.version.16mhz=5V / 16MHz
+Nano_328PB.menu.version.16mhz.upload.speed=115200
+Nano_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
+Nano_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
+Nano_328PB.menu.version.16mhz.build.f_cpu=16000000L
+
+##############################################################
+
+Mini_328PB.name=Pro Mini 328PB
+Mini_328PB.upload.tool=avrdudecustom
+Mini_328PB.upload.protocol=arduino
+Mini_328PB.upload.mcu=atmega328pb
+Mini_328PB.upload.maximum_size=32256
+Mini_328PB.upload.maximum_data_size=2048
+
+Mini_328PB.bootloader.tool=avrdudecustom
+Mini_328PB.bootloader.low_fuses=0xFF
+Mini_328PB.bootloader.high_fuses=0xDE
+Mini_328PB.bootloader.unlock_bits=0xFF
+Mini_328PB.bootloader.lock_bits=0xCF
+
+Mini_328PB.build.mcu=atmega328p
+Mini_328PB.build.board=AVR_Pro_Mini_328PB
+Mini_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Mini_328PB.build.core=arduino:arduino
+Mini_328PB.build.variant=atmega328pb
+
+##############################################################
+
+Mini_328PB.menu.version.16mhz=5V / 16MHz
+Mini_328PB.menu.version.16mhz.upload.speed=115200
+Mini_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
+Mini_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
+Mini_328PB.menu.version.16mhz.build.f_cpu=16000000L
+
+##############################################################
+
+Mini_328PB.menu.version.8mhz=3.3V / 8MHz
+Mini_328PB.menu.version.8mhz.upload.speed=57600
+Mini_328PB.menu.version.8mhz.bootloader.extended_fuses=0xF5
+Mini_328PB.menu.version.8mhz.bootloader.file=optiboot/optiboot_atmega328pb_8mhz.hex
+Mini_328PB.menu.version.8mhz.build.f_cpu=8000000L
+
+##############################################################
