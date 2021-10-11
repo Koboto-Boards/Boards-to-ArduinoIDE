@@ -1,6 +1,6 @@
 menu.version=Version
 
-Uno_328PB.name=Uno 328PB
+Uno_328PB.name=Koboto Uno 328PB
 Uno_328PB.upload.tool=avrdudecustom
 Uno_328PB.upload.protocol=arduino
 Uno_328PB.upload.mcu=atmega328pb
@@ -29,7 +29,7 @@ Uno_328PB.menu.version.16mhz.build.f_cpu=16000000L
 
 ##############################################################
 
-Nano_328PB.name=Nano 328PB
+Nano_328PB.name=Koboto Nano 328PB
 Nano_328PB.upload.tool=avrdudecustom
 Nano_328PB.upload.protocol=arduino
 Nano_328PB.upload.mcu=atmega328pb
@@ -58,7 +58,7 @@ Nano_328PB.menu.version.16mhz.build.f_cpu=16000000L
 
 ##############################################################
 
-Mini_328PB.name=Pro Mini 328PB
+Mini_328PB.name=Koboto Pro Mini 328PB
 Mini_328PB.upload.tool=avrdudecustom
 Mini_328PB.upload.protocol=arduino
 Mini_328PB.upload.mcu=atmega328pb
