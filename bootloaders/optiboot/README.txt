@@ -1,1 +1,1 @@
-We build the bootloaders for the A-Star 328PB using WinAVR-201001110.
+We build the bootloaders for the atmega328pb using WinAVR-201001110.
