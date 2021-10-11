@@ -15,9 +15,8 @@
           "help": {
             "online": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE"
           },
-          "url": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE/archive/Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
+          "url": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE/archive/refs/heads/koboto.io_V1.0.zip",
           "archiveFileName": "Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
-          "checksum": "SHA-256:1ed9febc8a276523d2acf521292b84f4eb44020bfc19bba22d4fcdedfde1cdca",
           "size": "69639",
           "boards": [
             {"name": "A-Star 32U4"},
