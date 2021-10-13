@@ -21,7 +21,8 @@
           "boards": [
             {"name": "Uno 328PB"},
             {"name": "Nano 328PB"},
-            {"name": "Pro Mini 328PB"}
+            {"name": "Pro Mini 328PB"},
+            {"name": "All boards use Atmega328PB MCU"}
           ],
           "toolsDependencies": []
         }
