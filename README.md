@@ -9,7 +9,7 @@ These files are the software for the Koboto.io Boards Using Atmega328PB MCU.
 
 ## Arduino IDE integration
 
-These files can be used to add A-Star and robot support to the Arduino IDE.
+These files can be used to add all boards of koboto.io support to the Arduino IDE.
 Entries for **koboto.io Boards** will appear in the **Boards** menu
 when you do this.
 
