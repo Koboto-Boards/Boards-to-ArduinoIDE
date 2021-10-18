@@ -15,7 +15,7 @@ Uno_328PB.bootloader.lock_bits=0xCF
 
 Uno_328PB.build.mcu=atmega328p
 Uno_328PB.build.board=AVR_Uno_328PB
-Uno_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Uno_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Uno_328PB.build.core=arduino:arduino
 Uno_328PB.build.variant=atmega328pb
 
@@ -44,7 +44,7 @@ Nano_328PB.bootloader.lock_bits=0xCF
 
 Nano_328PB.build.mcu=atmega328p
 Nano_328PB.build.board=AVR_Nano_328PB
-Nano_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Nano_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Nano_328PB.build.core=arduino:arduino
 Nano_328PB.build.variant=atmega328pb
 
@@ -73,7 +73,7 @@ Mini_328PB.bootloader.lock_bits=0xCF
 
 Mini_328PB.build.mcu=atmega328p
 Mini_328PB.build.board=AVR_Pro_Mini_328PB
-Mini_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328pb/io_328pb.h"
+Mini_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Mini_328PB.build.core=arduino:arduino
 Mini_328PB.build.variant=atmega328pb
 
