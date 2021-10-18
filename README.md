@@ -53,7 +53,7 @@ the ATmega328PB, while still being able to compile almost any code that worked
 on the older ATmega328P.
 
 Here are some details about what Arduino features work when programming the
-A-Star 328PB in the Arduino IDE:
+koboto boards in the Arduino IDE:
 
 - The `Serial` and `Serial1` objects both work, providing access to UART0 and
   UART1, respectively.
