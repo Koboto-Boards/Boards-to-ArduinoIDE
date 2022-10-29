@@ -1,25 +1,24 @@
 menu.version=Version
 
 Uno_328PB.name=Koboto Uno 328PB
-Uno_328PB.upload.tool=avrdudecustom
+Uno_328PB.upload.tool=arduino:avrdude
 Uno_328PB.upload.protocol=arduino
 Uno_328PB.upload.mcu=atmega328pb
 Uno_328PB.upload.maximum_size=32256
 Uno_328PB.upload.maximum_data_size=2048
 
-Uno_328PB.bootloader.tool=avrdudecustom
+Uno_328PB.bootloader.tool=arduino:avrdude
 Uno_328PB.bootloader.low_fuses=0xFF
 Uno_328PB.bootloader.high_fuses=0xDE
 Uno_328PB.bootloader.unlock_bits=0xFF
 Uno_328PB.bootloader.lock_bits=0xCF
 
-Uno_328PB.build.mcu=atmega328p
+Uno_328PB.build.mcu=atmega328pb
 Uno_328PB.build.board=AVR_Uno_328PB
-Uno_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Uno_328PB.build.core=arduino:arduino
 Uno_328PB.build.variant=atmega328pb
 
-##############################################################
+-----------------------------------------------------------------------------------------------
 
 Uno_328PB.menu.version.16mhz=5,0V / 16MHz
 Uno_328PB.menu.version.16mhz.upload.speed=115200
@@ -27,28 +26,44 @@ Uno_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Uno_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
 Uno_328PB.menu.version.16mhz.build.f_cpu=16000000L
 
-##############################################################
+-----------------------------------------------------------------------------------------------
+
+Uno_328PB.build.extra_flags={build.i2c_flags} {build.spi_flags}
+
+menu.i2c=Default I2C bus
+Uno_328PB.menu.i2c.twi0=TWI0
+Uno_328PB.menu.i2c.twi0.build.i2c_flags=-DTWBR=TWBR0 -DTWSR=TWSR0 -DTWAR=TWAR0 -DTWDR=TWDR0 -DTWCR=TWCR0 -DTWAMR=TWAMR0 -DTWI_vect=TWI0_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA0 -DPIN_WIRE_SCL=PIN_WIRE_SCL0
+Uno_328PB.menu.i2c.twi1=TWI1
+Uno_328PB.menu.i2c.twi1.build.i2c_flags=-DTWBR=TWBR1 -DTWSR=TWSR1 -DTWAR=TWAR1 -DTWDR=TWDR1 -DTWCR=TWCR1 -DTWAMR=TWAMR1 -DTWI_vect=TWI1_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA1 -DPIN_WIRE_SCL=PIN_WIRE_SCL1
+
+menu.spi=Default SPI bus
+Uno_328PB.menu.spi.spi0=SPI0
+Uno_328PB.menu.spi.spi0.build.spi_flags=-DSPCR=SPCR0 -DSPSR=SPSR0 -DSPDR=SPDR0 -DPIN_SPI_SS=PIN_SPI_SS0 -DPIN_SPI_MOSI=PIN_SPI_MOSI0 -DPIN_SPI_MISO=PIN_SPI_MISO0 -DPIN_SPI_SCK=PIN_SPI_SCK0
+Uno_328PB.menu.spi.spi1=SPI1
+Uno_328PB.menu.spi.spi1.build.spi_flags=-DSPCR=SPCR1 -DSPSR=SPSR1 -DSPDR=SPDR1 -DPIN_SPI_SS=PIN_SPI_SS1 -DPIN_SPI_MOSI=PIN_SPI_MOSI1 -DPIN_SPI_MISO=PIN_SPI_MISO1 -DPIN_SPI_SCK=PIN_SPI_SCK1
+
+
+#######################################################################################################################################################################
 
 Nano_328PB.name=Koboto Nano 328PB
-Nano_328PB.upload.tool=avrdudecustom
+Nano_328PB.upload.tool=arduino:avrdude
 Nano_328PB.upload.protocol=arduino
 Nano_328PB.upload.mcu=atmega328pb
 Nano_328PB.upload.maximum_size=32256
 Nano_328PB.upload.maximum_data_size=2048
 
-Nano_328PB.bootloader.tool=avrdudecustom
+Nano_328PB.bootloader.tool=arduino:avrdude
 Nano_328PB.bootloader.low_fuses=0xFF
 Nano_328PB.bootloader.high_fuses=0xDE
 Nano_328PB.bootloader.unlock_bits=0xFF
 Nano_328PB.bootloader.lock_bits=0xCF
 
-Nano_328PB.build.mcu=atmega328p
+Nano_328PB.build.mcu=atmega328pb
 Nano_328PB.build.board=AVR_Nano_328PB
-Nano_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Nano_328PB.build.core=arduino:arduino
 Nano_328PB.build.variant=atmega328pb
 
-##############################################################
+-----------------------------------------------------------------------------------------------
 
 Nano_328PB.menu.version.16mhz=5,0V / 16MHz
 Nano_328PB.menu.version.16mhz.upload.speed=115200
@@ -56,28 +71,43 @@ Nano_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Nano_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
 Nano_328PB.menu.version.16mhz.build.f_cpu=16000000L
 
-##############################################################
+-----------------------------------------------------------------------------------------------
+
+Nano_328PB.build.extra_flags={build.i2c_flags} {build.spi_flags}
+
+menu.i2c=Default I2C bus
+Nano_328PB.menu.i2c.twi0=TWI0
+Nano_328PB.menu.i2c.twi0.build.i2c_flags=-DTWBR=TWBR0 -DTWSR=TWSR0 -DTWAR=TWAR0 -DTWDR=TWDR0 -DTWCR=TWCR0 -DTWAMR=TWAMR0 -DTWI_vect=TWI0_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA0 -DPIN_WIRE_SCL=PIN_WIRE_SCL0
+Nano_328PB.menu.i2c.twi1=TWI1
+Nano_328PB.menu.i2c.twi1.build.i2c_flags=-DTWBR=TWBR1 -DTWSR=TWSR1 -DTWAR=TWAR1 -DTWDR=TWDR1 -DTWCR=TWCR1 -DTWAMR=TWAMR1 -DTWI_vect=TWI1_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA1 -DPIN_WIRE_SCL=PIN_WIRE_SCL1
+
+menu.spi=Default SPI bus
+Nano_328PB.menu.spi.spi0=SPI0
+Nano_328PB.menu.spi.spi0.build.spi_flags=-DSPCR=SPCR0 -DSPSR=SPSR0 -DSPDR=SPDR0 -DPIN_SPI_SS=PIN_SPI_SS0 -DPIN_SPI_MOSI=PIN_SPI_MOSI0 -DPIN_SPI_MISO=PIN_SPI_MISO0 -DPIN_SPI_SCK=PIN_SPI_SCK0
+Nano_328PB.menu.spi.spi1=SPI1
+Nano_328PB.menu.spi.spi1.build.spi_flags=-DSPCR=SPCR1 -DSPSR=SPSR1 -DSPDR=SPDR1 -DPIN_SPI_SS=PIN_SPI_SS1 -DPIN_SPI_MOSI=PIN_SPI_MOSI1 -DPIN_SPI_MISO=PIN_SPI_MISO1 -DPIN_SPI_SCK=PIN_SPI_SCK1
+
+#######################################################################################################################################################################
 
 Mini_328PB.name=Koboto Pro Mini 328PB
-Mini_328PB.upload.tool=avrdudecustom
+Mini_328PB.upload.tool=arduino:avrdude
 Mini_328PB.upload.protocol=arduino
 Mini_328PB.upload.mcu=atmega328pb
 Mini_328PB.upload.maximum_size=32256
 Mini_328PB.upload.maximum_data_size=2048
 
-Mini_328PB.bootloader.tool=avrdudecustom
+Mini_328PB.bootloader.tool=arduino:avrdude
 Mini_328PB.bootloader.low_fuses=0xFF
 Mini_328PB.bootloader.high_fuses=0xDE
 Mini_328PB.bootloader.unlock_bits=0xFF
 Mini_328PB.bootloader.lock_bits=0xCF
 
-Mini_328PB.build.mcu=atmega328p
+Mini_328PB.build.mcu=atmega328pb
 Mini_328PB.build.board=AVR_Pro_Mini_328PB
-Mini_328PB.build.extra_flags=-include "{runtime.platform.path}/variants/atmega328PB/io_328pb.h"
 Mini_328PB.build.core=arduino:arduino
 Mini_328PB.build.variant=atmega328pb
 
-##############################################################
+-----------------------------------------------------------------------------------------------
 
 Mini_328PB.menu.version.16mhz=5,0V / 16MHz
 Mini_328PB.menu.version.16mhz.upload.speed=115200
@@ -85,7 +115,7 @@ Mini_328PB.menu.version.16mhz.bootloader.extended_fuses=0xF4
 Mini_328PB.menu.version.16mhz.bootloader.file=optiboot/optiboot_atmega328pb_16mhz.hex
 Mini_328PB.menu.version.16mhz.build.f_cpu=16000000L
 
-##############################################################
+-----------------------------------------------------------------------------------------------
 
 Mini_328PB.menu.version.8mhz=3.3V / 8MHz
 Mini_328PB.menu.version.8mhz.upload.speed=57600
@@ -93,4 +123,20 @@ Mini_328PB.menu.version.8mhz.bootloader.extended_fuses=0xF5
 Mini_328PB.menu.version.8mhz.bootloader.file=optiboot/optiboot_atmega328pb_8mhz.hex
 Mini_328PB.menu.version.8mhz.build.f_cpu=8000000L
 
-##############################################################
+-----------------------------------------------------------------------------------------------
+
+Mini_328PB.build.extra_flags={build.i2c_flags} {build.spi_flags}
+
+menu.i2c=Default I2C bus
+Mini_328PB.menu.i2c.twi0=TWI0
+Mini_328PB.menu.i2c.twi0.build.i2c_flags=-DTWBR=TWBR0 -DTWSR=TWSR0 -DTWAR=TWAR0 -DTWDR=TWDR0 -DTWCR=TWCR0 -DTWAMR=TWAMR0 -DTWI_vect=TWI0_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA0 -DPIN_WIRE_SCL=PIN_WIRE_SCL0
+Mini_328PB.menu.i2c.twi1=TWI1
+Mini_328PB.menu.i2c.twi1.build.i2c_flags=-DTWBR=TWBR1 -DTWSR=TWSR1 -DTWAR=TWAR1 -DTWDR=TWDR1 -DTWCR=TWCR1 -DTWAMR=TWAMR1 -DTWI_vect=TWI1_vect -DPIN_WIRE_SDA=PIN_WIRE_SDA1 -DPIN_WIRE_SCL=PIN_WIRE_SCL1
+
+menu.spi=Default SPI bus
+Mini_328PB.menu.spi.spi0=SPI0
+Mini_328PB.menu.spi.spi0.build.spi_flags=-DSPCR=SPCR0 -DSPSR=SPSR0 -DSPDR=SPDR0 -DPIN_SPI_SS=PIN_SPI_SS0 -DPIN_SPI_MOSI=PIN_SPI_MOSI0 -DPIN_SPI_MISO=PIN_SPI_MISO0 -DPIN_SPI_SCK=PIN_SPI_SCK0
+Mini_328PB.menu.spi.spi1=SPI1
+Mini_328PB.menu.spi.spi1.build.spi_flags=-DSPCR=SPCR1 -DSPSR=SPSR1 -DSPDR=SPDR1 -DPIN_SPI_SS=PIN_SPI_SS1 -DPIN_SPI_MOSI=PIN_SPI_MOSI1 -DPIN_SPI_MISO=PIN_SPI_MISO1 -DPIN_SPI_SCK=PIN_SPI_SCK1
+
+#######################################################################################################################################################################
