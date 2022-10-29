@@ -57,9 +57,8 @@ koboto boards in the Arduino IDE:
 
 - The `Serial` and `Serial1` objects both work, providing access to UART0 and
   UART1, respectively.
-- There is no library support for accessing the ATmega328PB's second I2C module
-  (TWI1), or its second SPI module (SPI1).  However, you can access the
-  registers for those new modules and define ISRs for them.
+- The "Default I2C bus" sub-menu in the "Tools" menu allows you to choose whether the Wire library and other libraries like it will use TWI0 or TWI1. There is no library support for accessing TWI0 and TWI1 in the same program.
+- The "Default SPI bus" sub-menu in the "Tools" menu allows you to choose whether the SPI library and other libraries like it will use SPI0 or SPI1. There is no library support for accessing both SPI0 and SPI1 in the same program.
 - `pinMode()`, `digitalRead()`, and `digitalWrite()` should work on every I/O
   pin.
 - `analogRead()` should work on every analog pin (A0 through A7).
@@ -82,6 +81,7 @@ Atmega328PB MCU using "optiboot".
 
 ## Version history
 
+- 1.1.0 (2022-10-29): Made the Wire and SPI libraries usable on the A-Star 328PB again. Added menus that let you choose which bus each library will use.
 - 1.0.0 (2021-10-11): Start of the project;
 
 
