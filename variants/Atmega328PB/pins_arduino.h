@@ -1,5 +1,5 @@
 /* Modified to support the ATmega328PB on our
- * Koboto.io boards. */
+ * Koboto.io boards - www.koboto.io */
 
 /*
   pins_arduino.h - Pin definition functions for Arduino
