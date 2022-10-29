@@ -1,6 +1,6 @@
 # koboto.io
 
-Version: 1.1.0<br>
+Version: 1.0.0<br>
 Release date: 2021/10/11<br>
 [www.koboto.io](https://koboto.io/)
 
@@ -81,7 +81,6 @@ Atmega328PB MCU using "optiboot".
 
 ## Version history
 
-- 1.1.0 (2022-10-29): Made the Wire and SPI libraries usable on the A-Star 328PB again. Added menus that let you choose which bus each library will use.
 - 1.0.0 (2021-10-11): Start of the project;
 
 
