@@ -1,6 +1,6 @@
 # koboto.io
 
-Version: 1.0.0<br>
+Version: 1.1.0<br>
 Release date: 2021/10/11<br>
 [www.koboto.io](https://koboto.io/)
 
