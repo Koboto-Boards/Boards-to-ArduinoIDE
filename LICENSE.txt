@@ -1,7 +1,6 @@
-Copyright (c) 2014 Pololu Corporation.  For more information, see
+Copyright (c) 2021 Koboto.io.  For more information, see
 
-http://www.pololu.com/
-http://forum.pololu.com/
+http://www.koboto.io
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
