@@ -13,7 +13,7 @@ These files can be used to add all boards of koboto.io support to the Arduino ID
 Entries for **koboto.io Boards** will appear in the **Boards** menu
 when you do this.
 
-For most people, we recommend setting up A-Star support in the Arduino IDE by
+For most people, we recommend setting up Koboto Boards support in the Arduino IDE by
 installing our boards package through the Boards Manager. (These instructions
 can also be found in the user's guide for each controller).
 
