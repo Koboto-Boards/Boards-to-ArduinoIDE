@@ -9,11 +9,11 @@ These files are the software for the Koboto.io Boards Using Atmega328PB MCU.
 
 ## Arduino IDE integration
 
-These files can be used to add all boards of koboto.io support to the Arduino IDE.
+These files can be used to add A-Star and robot support to the Arduino IDE.
 Entries for **koboto.io Boards** will appear in the **Boards** menu
 when you do this.
 
-For most people, we recommend setting up Koboto Boards support in the Arduino IDE by
+For most people, we recommend setting up A-Star support in the Arduino IDE by
 installing our boards package through the Boards Manager. (These instructions
 can also be found in the user's guide for each controller).
 
@@ -53,12 +53,13 @@ the ATmega328PB, while still being able to compile almost any code that worked
 on the older ATmega328P.
 
 Here are some details about what Arduino features work when programming the
-koboto boards in the Arduino IDE:
+A-Star 328PB in the Arduino IDE:
 
 - The `Serial` and `Serial1` objects both work, providing access to UART0 and
   UART1, respectively.
-- The "Default I2C bus" sub-menu in the "Tools" menu allows you to choose whether the Wire library and other libraries like it will use TWI0 or TWI1. There is no library support for accessing TWI0 and TWI1 in the same program.
-- The "Default SPI bus" sub-menu in the "Tools" menu allows you to choose whether the SPI library and other libraries like it will use SPI0 or SPI1. There is no library support for accessing both SPI0 and SPI1 in the same program.
+- There is no library support for accessing the ATmega328PB's second I2C module
+  (TWI1), or its second SPI module (SPI1).  However, you can access the
+  registers for those new modules and define ISRs for them.
 - `pinMode()`, `digitalRead()`, and `digitalWrite()` should work on every I/O
   pin.
 - `analogRead()` should work on every analog pin (A0 through A7).

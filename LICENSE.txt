@@ -1,6 +1,7 @@
-Copyright (c) 2021 Koboto.io.  For more information, see
+Copyright (c) 2014 Pololu Corporation.  For more information, see
 
-http://www.koboto.io
+http://www.pololu.com/
+http://forum.pololu.com/
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -22,3 +23,26 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
+This additional license applies to the files in bootloaders/caterina:
+
+Copyright 2011  Dean Camera (dean [at] fourwalledcubicle [dot] com)
+
+Permission to use, copy, modify, distribute, and sell this
+software and its documentation for any purpose is hereby granted
+without fee, provided that the above copyright notice appear in
+all copies and that both that the copyright notice and this
+permission notice and warranty disclaimer appear in supporting
+documentation, and that the name of the author not be used in
+advertising or publicity pertaining to distribution of the
+software without specific, written prior permission.
+
+The author disclaim all warranties with regard to this
+software, including all implied warranties of merchantability
+and fitness.  In no event shall the author be liable for any
+special, indirect or consequential damages or any damages
+whatsoever resulting from loss of use, data or profits, whether
+in an action of contract, negligence or other tortious action,
+arising out of or in connection with the use or performance of
+this software.

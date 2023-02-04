@@ -1,18 +1,22 @@
 /* Modified to support the ATmega328PB on our
- * Koboto.io boards - www.koboto.io */
+ * Koboto.io boards. */
 
 /*
   pins_arduino.h - Pin definition functions for Arduino
   Part of Arduino - http://www.arduino.cc/
+
   Copyright (c) 2007 David A. Mellis
+
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
   License as published by the Free Software Foundation; either
   version 2.1 of the License, or (at your option) any later version.
+
   This library is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
   Lesser General Public License for more details.
+
   You should have received a copy of the GNU Lesser General
   Public License along with this library; if not, write to the
   Free Software Foundation, Inc., 59 Temple Place, Suite 330,
@@ -29,6 +33,11 @@
 #define analogInputToDigitalPin(p)  ((p < 8) ? (p) + 14 : -1)
 
 #define digitalPinHasPWM(p)         ((p) == 0 || (p) == 1 || (p) == 2 || (p) == 3 || (p) == 5 || (p) == 6 || (p) == 9 || (p) == 10 || (p) == 11)
+
+#define PIN_SPI_SS    (10)
+#define PIN_SPI_MOSI  (11)
+#define PIN_SPI_MISO  (12)
+#define PIN_SPI_SCK   (13)
 
 #define PIN_SPI_SS0   (10)
 #define PIN_SPI_MOSI0 (11)
@@ -54,6 +63,9 @@ static const uint8_t SS1 = PIN_SPI_SS1;
 static const uint8_t MOSI1 = PIN_SPI_MOSI1;
 static const uint8_t MISO1 = PIN_SPI_MISO1;
 static const uint8_t SCK1 = PIN_SPI_SCK1;
+
+#define PIN_WIRE_SDA (18)
+#define PIN_WIRE_SCL (19)
 
 #define PIN_WIRE_SDA0 (18)
 #define PIN_WIRE_SCL0 (19)
