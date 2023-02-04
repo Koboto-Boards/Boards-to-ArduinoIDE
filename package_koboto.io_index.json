@@ -18,7 +18,7 @@
           "url": "https://github.com/Koboto-Boards/Boards-to-ArduinoIDE/archive/refs/heads/koboto.io_V1.0.zip",
           "archiveFileName": "Boards-to-ArduinoIDE-koboto.io_V1.0.zip",
 	  "checksum": "SHA-256:ff00c117cdfbb81842589edaeeb507bfa4e1631a0975f95b94c18ab644ae2975",
-          "size": "59200",
+          "size": "59270",
           "boards": [
             {"name": "Uno 328PB"},
             {"name": "Nano 328PB"},
